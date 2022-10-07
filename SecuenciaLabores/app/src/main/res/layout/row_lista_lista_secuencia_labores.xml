@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp5" >
+
+    <TextView
+        android:id="@+id/tv_numeroCorrelativo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/dp10"
+        android:text="12"
+         android:textStyle="bold"        
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#088A29" />
+    
+    <TextView
+        android:id="@+id/tv_codnom_proveedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_numeroCorrelativo"
+        android:layout_alignTop="@+id/tv_numeroCorrelativo"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_toRightOf="@+id/tv_numeroCorrelativo"
+        android:text="CANA001 - CANAVERALES NOMBRE DE PROVEEDOR"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#333" />
+    
+     <TextView
+         android:id="@+id/tv_codnom_finca"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_codnom_proveedor"
+         android:layout_below="@+id/tv_codnom_proveedor"
+         android:paddingBottom="@dimen/dp3"
+         android:paddingTop="@dimen/dp3"
+         android:text="1 FINCA SAN CRISTOBAL"     
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#5858FA" />
+    
+        <TextView
+        android:id="@+id/tv_codigoLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center|clip_horizontal"
+        android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_codnom_lote"
+            android:layout_marginRight="@dimen/dp15"
+            android:src="@drawable/ch2" />
+
+        <TextView
+            android:id="@+id/tv_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgCheck"
+            android:layout_alignLeft="@+id/tv_numeroCorrelativo"
+            android:text="15/10/2015"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+             />
+
+        <TextView
+            android:id="@+id/tv_codnom_lote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_codnom_finca"
+            android:layout_below="@+id/tv_codnom_finca"
+            android:text="2 LOTE # 3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#5858FA"
+            />
+
+</RelativeLayout>

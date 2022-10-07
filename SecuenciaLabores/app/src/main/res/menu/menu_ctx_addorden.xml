@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+        
+	<item android:id="@+id/CtxLstOpcAgregarOrden"
+    	android:title="Agregar la Orden de Cosecha"></item>
+    	    	
+   	<item android:id="@+id/CtxLstOpcCancelar"
+    	android:title="@string/cancelar"></item> 
+    	   	   		
+</menu>

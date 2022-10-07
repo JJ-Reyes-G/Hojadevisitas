@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cabana.hojavisita"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk android:targetSdkVersion="30" />
+7-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:7:5-9:41
+7-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:9:9-38
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:11:5-67
+9-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:11:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:13:5-79
+10-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:13:22-76
+11    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+11-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:14:5-86
+11-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:14:22-83
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:15:5-66
+12-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:15:22-63
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:16:5-75
+13-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:16:22-72
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16
+17    <application
+17-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:21:5-58:19
+18        android:allowBackup="true"
+18-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:23:9-35
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:24:9-43
+21        android:label="Hoja de Visitas"
+21-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:25:9-40
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme"
+23-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:26:9-40
+24        android:usesCleartextTraffic="true" >
+24-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:22:9-44
+25        <activity
+25-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:27:9-35:20
+26            android:name="com.secuencia.ordenescosecha.Login"
+26-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:28:13-34
+27            android:label="Hoja de visitas" >
+27-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:29:13-44
+28            <intent-filter>
+28-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:30:13-34:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:31:17-69
+29-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:31:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:33:17-77
+31-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:33:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:36:9-38:81
+35            android:name="com.secuencia.ordenescosecha.SecuenciaLabores"
+35-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:37:13-45
+36            android:label="@string/title_activity_secuencia_labores" />
+36-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:38:13-69
+37        <activity
+37-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:39:9-41:80
+38            android:name="com.secuencia.ordenescosecha.DetallesLabores"
+38-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:40:13-44
+39            android:label="@string/title_activity_detalles_labores" />
+39-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:41:13-68
+40        <activity
+40-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:42:9-45:87
+41            android:name="com.secuencia.ordenescosecha.ListaSecuenciaLabores"
+41-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:43:13-50
+42            android:label="@string/title_activity_lista_secuencia_labores"
+42-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:45:13-75
+43            android:usesCleartextTraffic="true" />
+43-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:44:13-48
+44        <activity
+44-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:46:9-48:83
+45            android:name="com.secuencia.ordenescosecha.ActividadPrincipal"
+45-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:47:13-47
+46            android:label="@string/title_activity_actividad_principal" />
+46-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:48:13-71
+47        <activity
+47-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:49:9-51:81
+48            android:name="com.secuencia.ordenescosecha.ActListaVisitas"
+48-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:50:13-44
+49            android:label="@string/title_activity_act_lista_visitas" />
+49-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:51:13-69
+50        <activity
+50-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:52:9-54:80
+51            android:name="com.secuencia.ordenescosecha.ActLotesSelect"
+51-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:53:13-43
+52            android:label="@string/title_activity_act_lotes_select" />
+52-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:54:13-68
+53
+54        <uses-library
+54-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:55:9-57:40
+55            android:name="org.apache.http.legacy"
+55-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:56:13-50
+56            android:required="false" />
+56-->C:\StudioProjects\Hojadevisitas\SecuenciaLabores\app\src\main\AndroidManifest.xml:57:13-37
+57    </application>
+58
+59</manifest>

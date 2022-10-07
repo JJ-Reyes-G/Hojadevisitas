@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.secuencia.ordenescosecha"
+    android:versionCode="2"
+    android:versionName="2.0">
+
+    <uses-sdk
+
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hoja de Visitas"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="Hoja de visitas">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecuenciaLabores"
+            android:label="@string/title_activity_secuencia_labores"></activity>
+        <activity
+            android:name=".DetallesLabores"
+            android:label="@string/title_activity_detalles_labores"></activity>
+        <activity
+            android:name=".ListaSecuenciaLabores"
+            android:usesCleartextTraffic="true"
+            android:label="@string/title_activity_lista_secuencia_labores"></activity>
+        <activity
+            android:name=".ActividadPrincipal"
+            android:label="@string/title_activity_actividad_principal"></activity>
+        <activity
+            android:name=".ActListaVisitas"
+            android:label="@string/title_activity_act_lista_visitas"></activity>
+        <activity
+            android:name=".ActLotesSelect"
+            android:label="@string/title_activity_act_lotes_select"></activity>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pdsolutionweb.ilikegifts.Ordenes" >
+    
+<TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp0"
+        android:background="#8fc400"
+        android:paddingTop="@dimen/dp5" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginTop="@dimen/dp5"
+            android:text="Lista de Orden de Cosecha"
+            android:textAppearance="@style/LetraBlanco"
+            android:textColor="#FFFFFF" />
+
+    </TableRow>    
+
+    <ListView
+        android:id="@+id/lv_ClientesOrdenes"
+        style="@style/LetraCeleste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_gris_degradado2" >
+
+    </ListView>
+
+    
+
+</LinearLayout>

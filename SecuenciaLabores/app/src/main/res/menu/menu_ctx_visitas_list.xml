@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/CtxLstOpcGuardar"
+        android:title="Guardar"></item>
+
+    <item android:id="@+id/CtxLstOpceEliminar"
+        android:title="Eliminar"></item>
+
+    <item android:id="@+id/CtxLstOpcBajarVisitas"
+        android:title="Bajar las ultimas visitas"></item>
+
+    <item android:id="@+id/CtxLstOpcGuardarLotes"
+        android:title="GUARDAR LOTES"></item>
+
+
+
+</menu>

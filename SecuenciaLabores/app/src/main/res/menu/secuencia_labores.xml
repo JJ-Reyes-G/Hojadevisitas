@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.secuencia.ordenescosecha.SecuenciaLabores" >
+
+
+    
+    <item android:id="@+id/action_search" 
+        android:showAsAction="always"
+		android:title="Search"
+		android:icon="@android:drawable/ic_menu_search"
+		android:actionViewClass="android.widget.SearchView" /> 
+
+    <item
+        android:id="@+id/menu_secuencia_labores_sincronizar"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="ACTUALIZAR SEC."/>
+
+    <item
+        android:id="@+id/menu_hojavisita_nuevo_cliente"
+        android:showAsAction="ifRoom|withText"
+        android:title="VISITA NUEVO PROV"/>
+
+</menu>

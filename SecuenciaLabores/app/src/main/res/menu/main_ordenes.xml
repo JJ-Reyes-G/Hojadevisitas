@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_ordenes_add_qsp"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_ordenes_secuencia"/>  
+        
+    <item
+        android:id="@+id/menu_ordenes_add_qnp"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_ordenes_secuenciaqnp"/> 
+       
+    <item
+        android:id="@+id/menu_ordenes_sincronizar"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="AJUSTES"/>  
+        
+    <item
+        android:id="@+id/menu_labores_add"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_labores_add"/>    
+        
+    <item
+        android:id="@+id/menu_url_updateapp"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_url_updateapp"/>
+    
+    <item
+        android:id="@+id/menu_url_reiniciar_sistema"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_url_reiniciar_sistema"/> 
+        
+ 
+
+</menu>

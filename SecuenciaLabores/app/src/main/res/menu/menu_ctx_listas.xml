@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+        
+	<item android:id="@+id/CtxLstOpcCambiarNombre"
+    	android:title="@string/cambiar_nombre"></item>
+	
+   	<item android:id="@+id/CtxLstOpcCambiarOcacion"
+    	android:title="@string/cambiar_ocasion"></item>
+
+   	<item android:id="@+id/CtxLstOpc2CambiarPrecio"
+    	android:title="@string/cambiar_precio"></item> 
+    	
+   	<item android:id="@+id/CtxLstOpc3CambiarEstatus"
+    	android:title="@string/cambiar_estatus"></item>   	
+    	   	 
+   	<item android:id="@+id/CtxLstOpcEliminarLista"
+    	android:title="@string/eliminar_lista"></item> 
+    	    	
+   	<item android:id="@+id/CtxLstOpcCancelar"
+    	android:title="@string/cancelar"></item> 
+    	   	   		
+</menu>

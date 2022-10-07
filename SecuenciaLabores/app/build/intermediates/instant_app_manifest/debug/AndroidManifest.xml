@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cabana.hojavisita"
+    android:targetSandboxVersion="2"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hoja de Visitas"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.secuencia.ordenescosecha.Login"
+            android:label="Hoja de visitas" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.secuencia.ordenescosecha.SecuenciaLabores"
+            android:label="@string/title_activity_secuencia_labores" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.DetallesLabores"
+            android:label="@string/title_activity_detalles_labores" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ListaSecuenciaLabores"
+            android:label="@string/title_activity_lista_secuencia_labores"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ActividadPrincipal"
+            android:label="@string/title_activity_actividad_principal" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ActListaVisitas"
+            android:label="@string/title_activity_act_lista_visitas" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ActLotesSelect"
+            android:label="@string/title_activity_act_lotes_select" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

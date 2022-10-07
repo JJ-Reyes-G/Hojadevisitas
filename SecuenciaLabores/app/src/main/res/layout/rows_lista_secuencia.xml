@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+			    <TextView
+			        android:id="@+id/tv_numeroSecuencia"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="5dp"
+			        android:layout_marginLeft="10dp"
+			        android:text="12"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="#FF0000" />
+			
+			    <TextView
+			        android:id="@+id/tv_codnom_lote"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+					android:layout_alignLeft="@+id/tv_codnom_finca"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:layout_below="@+id/tv_codnom_finca"
+			        android:text="# Lote"
+			        android:textStyle="bold"
+			        android:textColor="#333" />
+
+			    <TextView
+			        android:id="@+id/tv_tonestima"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@+id/tv_variedad_ofrente"
+			        android:layout_alignParentRight="true"
+			        android:layout_marginRight="15dp"
+			        android:text="TONESTIMA: 400"
+			        android:textColor="#333" />
+
+                <TextView
+                    android:id="@+id/tv_codigoLista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tv_cantidad"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/tv_tonestima"
+                    android:background="#848484"
+                    android:maxHeight="0dp" />
+
+                <TextView
+                    android:id="@+id/tv_codnom_proveedor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_numeroSecuencia"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tv_numeroSecuencia"
+                    android:text="CANA001 - CANAVERALES NOMBRE DE PROVEEDOR"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#0033FF"
+                    android:layout_toStartOf="@+id/tv_zafra_lote"
+                    android:layout_toLeftOf="@+id/tv_zafra_lote" />
+
+                <TextView
+                    android:id="@+id/tv_codnom_finca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_codnom_proveedor"
+                    android:layout_toRightOf="@+id/tv_numeroSecuencia"
+                    android:text="4 FINCA LA PITA"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333" />
+
+                <TextView
+                    android:id="@+id/tv_variedad_ofrente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VARIEDAD: JS-8374"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333"
+                    android:layout_below="@+id/tv_codnom_lote"
+                    android:layout_alignRight="@+id/tv_tonestima"
+                    android:layout_alignEnd="@+id/tv_tonestima" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="2016-2017"
+        android:id="@+id/tv_zafra_lote"
+        android:layout_alignTop="@+id/tv_codnom_proveedor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp" />
+
+</RelativeLayout>

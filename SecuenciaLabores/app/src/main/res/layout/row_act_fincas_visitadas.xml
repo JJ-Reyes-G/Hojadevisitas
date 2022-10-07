@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp" >
+
+    		<Button
+                android:id="@+id/btn_check_estatus"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circulo_boton"
+                android:focusable="false"
+                android:freezesText="false"
+                android:text="AA"
+                android:maxLength="1"
+                android:textColor="#fff"
+                android:textSize="30dp" />    
+    
+	<TextView
+	    android:id="@+id/tv_codnom_finca"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tv_codnom_proveedor"
+	    android:layout_below="@+id/tv_codnom_proveedor"
+	    android:layout_marginLeft="16dp"
+	    android:text="1 - EL PROGRESO"
+	    android:textColor="@color/green_f" />
+
+	<TextView
+	    android:id="@+id/tv_codnom_lote"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tv_codnom_finca"
+	    android:layout_below="@+id/tv_codnom_finca"
+	    android:textColor="@color/green_f"
+	    android:text="NUMERO: 124244" />
+
+	<TextView
+	    android:id="@+id/tv_codnom_proveedor"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/btn_check_estatus"
+	    android:layout_marginLeft="17dp"
+	    android:layout_marginRight="25dp"
+	    android:layout_toRightOf="@+id/btn_check_estatus"
+	    android:text="JPAIZ001 JOSE JUAN PROVEEDOR JUAN"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TextView
+	    android:id="@+id/tv_llave"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/tv_fecha_fincosecha"
+	    android:layout_below="@+id/tv_fecha_fincosecha"
+	    android:text="LLAVE: 0" />
+
+	<TextView
+	    android:id="@+id/tv_fecha_fincosecha"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/btn_check_estatus"
+	    android:layout_below="@+id/tv_codnom_lote"
+	    android:layout_marginRight="40dp"
+	    android:layout_marginTop="12dp"
+	    android:text="RAZON: LA RAZON DE LA VISITA POR POR LA QUE ES VISITADO"
+	    android:textColor="#2E9AFE" />
+
+	    		<Button
+	    		    android:id="@+id/tv_row_frecuencia"
+	    		    style="?android:attr/buttonStyleSmall"
+	    		    android:layout_width="wrap_content"
+	    		    android:layout_height="wrap_content"
+	    		    android:layout_alignParentRight="true"
+	    		    android:layout_alignTop="@+id/tv_codnom_lote"
+	    		    android:background="@drawable/circulo_boton"
+	    		    android:focusable="false"
+	    		    android:freezesText="false"
+	    		    android:text="8"
+	    		    android:maxLength="3"
+	    		    android:textColor="#fff"
+	    		    android:textSize="30dp" />
+
+	    		<TextView
+	    		    android:id="@+id/tv_fecha_muestra"
+	    		    android:layout_width="wrap_content"
+	    		    android:layout_height="wrap_content"
+	    		    android:layout_alignParentRight="true"
+	    		    android:layout_below="@+id/tv_llave"
+	    		    android:text="FECHA MUESTRA: 15-10-2015" />
+	    		
+	    		 <ImageView
+                          android:id="@+id/img_candado"
+                          android:layout_width="30dip"
+                          android:layout_height="30dip"
+                          android:layout_alignParentRight="true"
+                          android:layout_alignParentTop="true"
+                          android:src="@drawable/open" />
+
+	    		 <TextView
+	    		     android:id="@+id/tv_recomendacion"
+	    		     android:layout_width="wrap_content"
+	    		     android:layout_height="wrap_content"
+	    		     android:layout_alignLeft="@+id/tv_llave"
+	    		     android:layout_below="@+id/tv_fecha_muestra"
+	    		     android:layout_marginTop="14dp"
+	    		     android:text="RECOMENDACION: Mi recomendacion esta muy larga para mostrar en el dispositivo"
+	    		     android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

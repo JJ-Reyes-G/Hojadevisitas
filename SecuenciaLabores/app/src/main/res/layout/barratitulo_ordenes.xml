@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/boton_gris"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imgbtn_barra_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/boton_verde2"
+        android:onClick="imgbtn_barra_sincronizar"
+        android:src="@drawable/logoatras" />
+
+        <ImageButton
+            android:id="@+id/ibn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/boton_verde2"
+            android:src="@drawable/power" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgbtn_barra_inicio"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imgbtn_barra_inicio"
+            android:text="Orden Cosecha"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dp12" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/titulo"
+            android:layout_alignLeft="@+id/titulo"
+            android:text="COD- Nombre Usuario"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dp15" />
+
+	</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="8dp">
+
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_marginRight="16dp"
+        android:src="@mipmap/ic_check_on"  />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvLoteTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10541 / LA CABAÑA" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="finca: LA CABAÑA"
+        android:id="@+id/tvProvSub1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Cantidad: 1.2"
+        android:id="@+id/tv_cantidad_solicitada"
+        android:layout_gravity="right" />
+</LinearLayout>

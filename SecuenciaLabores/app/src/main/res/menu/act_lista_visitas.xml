@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.secuencia.ordenescosecha.ListaSecuenciaLabores" >
+
+    <item
+        android:id="@+id/menu_limpiar"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_get"
+        android:title="BAJAR VISITAS"/>
+
+    <item
+        android:id="@+id/menu_add_visitas"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="ADD"/>
+
+    <item
+        android:id="@+id/menu_reiniciar_sistema"
+        android:showAsAction="ifRoom|withText"
+        android:title="REINICIAR SISTEMA"/>
+
+
+</menu>

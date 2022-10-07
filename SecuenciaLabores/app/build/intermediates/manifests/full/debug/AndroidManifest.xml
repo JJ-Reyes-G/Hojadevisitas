@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cabana.hojavisita"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hoja de Visitas"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.secuencia.ordenescosecha.Login"
+            android:label="Hoja de visitas" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.secuencia.ordenescosecha.SecuenciaLabores"
+            android:label="@string/title_activity_secuencia_labores" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.DetallesLabores"
+            android:label="@string/title_activity_detalles_labores" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ListaSecuenciaLabores"
+            android:label="@string/title_activity_lista_secuencia_labores" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ActividadPrincipal"
+            android:label="@string/title_activity_actividad_principal" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ActListaVisitas"
+            android:label="@string/title_activity_act_lista_visitas" />
+        <activity
+            android:name="com.secuencia.ordenescosecha.ActLotesSelect"
+            android:label="@string/title_activity_act_lotes_select" />
+    </application>
+
+</manifest>

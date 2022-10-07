@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.secuencia.ordenescosecha.ListaSecuenciaLabores" >
+
+    <item
+        android:id="@+id/menu_labores_edit"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/menu_labores_edit"/>      
+    
+    <item
+        android:id="@+id/menu_labores_add"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_labores_add"/>  
+</menu>

@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_fondo_gris_degradado2.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\fondo_gris_degradado2.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_check_off.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-hdpi\\ic_check_off.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_check_on.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_check_on.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_boton_verde2.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\boton_verde2.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_login.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_detalles_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\detalles_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_lista_lista_secuencia_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_lista_lista_secuencia_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_secuencia.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_secuencia.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_act_configuracion.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_act_configuracion.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_barratitulo_secuenciaqnp.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\barratitulo_secuenciaqnp.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_spinner_tipofalla.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_spinner_tipofalla.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_lista_zonas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_lista_zonas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_barratitulo_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\barratitulo_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_addorden.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_addorden.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_secuencia_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_secuencia_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_secuencia_qnp.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\secuencia_qnp.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_chekfalse.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\chekfalse.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_lotes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\list_item_lotes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_act_lotes_select.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_act_lotes_select.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_act_fincas_visitadas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_act_fincas_visitadas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_check_off.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_check_off.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_update_orden.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_update_orden.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bajardqnp2.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\bajardqnp2.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_mainordenes_list.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_mainordenes_list.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_check_on.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xhdpi\\ic_check_on.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_main_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_check_off.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-mdpi\\ic_check_off.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_boton_verde.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\boton_verde.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_check_on.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-mdpi\\ic_check_on.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_secuencia_qnp.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_secuencia_qnp.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_barratitulo_man_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\barratitulo_man_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_listmas.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\listmas.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ch1.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\ch1.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detalles_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_detalles_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_style_spinner.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_style_spinner.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_check_on.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_check_on.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_addqnp.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\addqnp.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_actividad_principal.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\actividad_principal.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_fincas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_fincas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_alert.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\layout_alert.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_listas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_listas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_barratitulo_orden.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_barratitulo_orden.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_barratitulo_cw.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_barratitulo_cw.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_act_lista_visitas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_act_lista_visitas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sincro1.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\sincro1.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_secuencia_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\secuencia_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_seclabores_list.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_seclabores_list.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cale.jpg.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\cale.jpg"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_add_ordenes_programdas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\add_ordenes_programdas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_power.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\power.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_cliente_web.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\cliente_web.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_barratitulo.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\barratitulo.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_circulo_boton.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\circulo_boton.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_actividad_principal.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_actividad_principal.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ch2.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\ch2.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_productos.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_productos.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_lista_secuencia_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\lista_secuencia_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\main_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_searchsombra.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\searchsombra.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cliente_web.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_cliente_web.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_open.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\open.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_lista_visita.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_lista_visita.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_lista_ocaciones.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\row_lista_ocaciones.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_enviar_nueva_orden.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_enviar_nueva_orden.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_check_off.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_check_off.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_detalles_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_detalles_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_visitas_list.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_visitas_list.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_close.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\close.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logoatras.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\logoatras.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logooc.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xhdpi\\logooc.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_check_on.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-hdpi\\ic_check_on.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_clientes_ordenes.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_clientes_ordenes.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_boton_gris.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\boton_gris.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_act_configuracion.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\act_configuracion.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_ctx_barratitulo_filtrobusqueda.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\menu_ctx_barratitulo_filtrobusqueda.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\menu_act_lista_visitas.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\menu\\act_lista_visitas.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_update.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\drawable-hdpi\\update.png"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lista_secuencia_labores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\activity_lista_secuencia_labores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\layout_rows_lista_proveedores.xml.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\layout\\rows_lista_proveedores.xml"
+    },
+    {
+        "merged": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_check_off.png.flat",
+        "source": "C:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\src\\main\\res\\mipmap-xhdpi\\ic_check_off.png"
+    }
+]

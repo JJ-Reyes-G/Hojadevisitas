@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8fc400"
+    android:orientation="vertical"
+    tools:context="com.pdsolutionweb.ilikegifts.Ordenes" >
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8fc400" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center" >
+
+			<TextView
+			    android:id="@+id/tv_codnomCliente"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="left|center"
+			    android:layout_marginLeft="@dimen/dp10"
+			    android:layout_marginTop="@dimen/dp2"
+			    android:text="CLIENTE:"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFFFFF" />
+			
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center" >
+
+			<TextView
+			    android:id="@+id/tv_codnomFinca"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="left|center"
+			    android:layout_marginBottom="@dimen/dp2"
+			    android:layout_marginLeft="@dimen/dp10"
+			    android:layout_marginTop="@dimen/dp2"
+			    android:text="FINCA:"
+			    android:textAppearance="?android:attr/textAppearanceMedium"
+			    android:textColor="#FFFFFF" />
+				
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TableRow>
+</TableLayout>
+
+    <ListView
+        android:id="@+id/lv_OrdenesCosecha"
+        style="@style/LetraCeleste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp3"
+        android:background="@drawable/fondo_gris_degradado2" >
+
+    </ListView>
+
+    
+
+</LinearLayout>

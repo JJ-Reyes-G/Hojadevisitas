@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/boton_gris"
+    android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtn_barra_sincronizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/boton_verde2"
+            android:onClick="imgbtn_barra_sincronizar"
+            android:src="@drawable/sincro1" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_add_ordenes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/imgbtn_barra_sincronizar"
+            android:background="@drawable/boton_verde2"
+            android:onClick="imgbtn_add_ordenes"
+            android:src="@drawable/listmas" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_barra_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/boton_verde2"
+            android:onClick="imgbtn_barra_actualizar"
+            android:src="@drawable/logooc" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgbtn_barra_inicio"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imgbtn_barra_inicio"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dp12" />
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgbtn_add_ordenes"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/imgbtn_add_ordenes"
+            android:background="@drawable/boton_verde2"
+            android:onClick="imgbtn_add_ordenesqnp"
+            android:src="@drawable/addqnp" />
+
+	</RelativeLayout>

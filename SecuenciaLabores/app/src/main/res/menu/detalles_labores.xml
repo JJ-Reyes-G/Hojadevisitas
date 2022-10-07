@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.secuencia.ordenescosecha.DetallesLabores" >
+
+    <item
+        android:id="@+id/menu_detalle_labor_edit"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/menu_labores_edit"/>      
+    
+    <item
+        android:id="@+id/menu_detalle_labor_add"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_detalle_labor_add"/>  
+        
+    
+    <item
+        android:id="@+id/menu_detalle_labor_guardar"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_detalle_labor_guardar"/>  
+</menu>

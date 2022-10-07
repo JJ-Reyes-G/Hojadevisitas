@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayout">
+    
+    <TextView
+        android:id="@+id/tv_correlativo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="12 - "
+        android:textColor="#0B6121"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_fecha_creacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_codNumVisita"
+        android:layout_toRightOf="@+id/tv_correlativo"
+        android:text="12-12-2015"
+        android:textAppearance="?android:attr/textAppearanceMedium"                
+        android:textColor="@color/purple_dark" />
+
+    <TextView
+        android:id="@+id/tv_codNumVisita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_correlativo"
+        android:layout_marginRight="0dp"
+        android:text="0157454"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/tv_estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_fecha_creacion"
+        android:layout_alignBottom="@+id/tv_fecha_creacion"
+        android:layout_alignRight="@+id/tv_codNumVisita"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/dp12"
+        android:text="936"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+         />
+
+    <ImageView
+        android:id="@+id/img_estatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tv_codNumVisita"
+        android:layout_below="@+id/tv_codProvFinca"
+        android:src="@drawable/close" />
+
+    <TextView
+        android:id="@+id/tv_zona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/img_estatus"
+        android:text="ZONA: 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+
+    <TextView
+        android:id="@+id/tv_llave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img_estatus"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_toLeftOf="@+id/img_estatus"
+        android:text="LLAVE: 312322"
+        />
+
+    <TextView
+        android:id="@+id/tv_codProvFinca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_nombreContacto"
+        android:text="UMCG0004 - NOMBRE DE EL PROVEEDOR DE CANAVERALES"
+          />
+
+    <TextView
+        android:id="@+id/tv_nombreContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_recomendacion"
+        android:text="REPORTA: JUAN JOSE REYES PEREZ" />
+
+    <ImageView
+        android:id="@+id/img_tabla"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_estado"
+        android:src="@drawable/logooc" />
+
+    <TextView
+        android:id="@+id/tv_recomendacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_razon"
+        android:paddingBottom="@dimen/dp12"
+        android:paddingTop="@dimen/dp12"
+        android:text="10 - DESCRIP: DE LA ORDEN TRABAJO descripcion de la orden de trabajo DESCRIPCION DE LA ORDEN TRABAJO de la orden de trabajo DESCRIPCION DE LA ORDEN TRABAJO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#088A29" />
+
+    <TextView
+        android:id="@+id/tv_razon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12-12-2014  07:05:05- Esta es la Razon de el inconveniente"
+        android:textColor="@color/rojo_fuerte"
+        android:layout_below="@+id/img_tabla" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_estatus_lotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignRight="@+id/relativeLayout"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/tv_lotes_pendientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lotes Pendientes 0"
+        android:layout_alignBottom="@+id/img_estatus_lotes"
+        android:layout_toLeftOf="@+id/img_estatus_lotes"
+        android:layout_toStartOf="@+id/img_estatus_lotes" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Lotes seleccionados:0"
+        android:id="@+id/tv_lotes_seleccionados"
+        android:layout_below="@+id/tv_lotes_pendientes"
+        android:layout_alignRight="@+id/tv_lotes_pendientes"
+        android:layout_alignEnd="@+id/tv_lotes_pendientes" />
+
+</RelativeLayout>

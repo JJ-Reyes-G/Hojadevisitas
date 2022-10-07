@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+    	
+	<item android:id="@+id/CtxLstOpcGuardarDatosCana"
+    	android:title="Guardar informacion de la orden"></item> 	
+        
+	
+   	<item android:id="@+id/CtxLstOpcAsignaCana"
+    	android:title="Asignar valores a la caña"></item>  
+    	 	
+	<!--  
+   	<item android:id="@+id/CtxLstOpcFinalizarOrden"
+    	android:title="Finalizar Orden"></item> 
+    -->
+    	
+   	<item android:id="@+id/CtxLstOpcAnularOrden"
+    	android:title="Anular Orden"></item>    			   	 
+    	    	
+   	<item android:id="@+id/CtxLstOpcCancelar"
+    	android:title="@string/cancelar"></item> 
+    	   	   		
+</menu>

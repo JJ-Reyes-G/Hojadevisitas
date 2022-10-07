@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dp5" >
+
+    <TextView
+        android:id="@+id/tv_numeroCorrelativo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/dp10"
+        android:text="8"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#088A29" />
+    
+    <TextView
+        android:id="@+id/tv_codnom_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_numeroCorrelativo"
+        android:layout_alignTop="@+id/tv_numeroCorrelativo"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_toRightOf="@+id/tv_numeroCorrelativo"
+        android:text="CODNOM PRODUCTO"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#333" />
+    
+     <TextView
+         android:id="@+id/tv_codnom_tipolabor"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/tv_numeroCorrelativo"
+         android:layout_below="@+id/tv_codnom_producto"
+         android:paddingBottom="@dimen/dp3"
+         android:paddingTop="@dimen/dp3"
+         android:text="Fertilizante"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="#333" />
+
+    <TextView
+        android:id="@+id/tv_dosis_desde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_numeroCorrelativo"
+        android:layout_below="@+id/tv_codnom_tipolabor"
+        android:text="DESDE: 0.25"
+        
+        android:textColor="#3104B4" />
+    
+        
+
+        <TextView
+            android:id="@+id/tv_unidadmedida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_codnom_tipolabor"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp15"
+            android:padding="@dimen/dp3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="LITRO" />
+
+        <TextView
+            android:id="@+id/tv_dosis_hasta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_dosis_desde"
+            android:layout_alignBottom="@+id/tv_dosis_desde"
+            android:layout_alignRight="@+id/tv_unidadmedida"
+            android:textColor="#3104B4"
+
+            android:text="HASTA: 0.50" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_dosis_desde"
+        android:layout_marginTop="5dp"
+        android:background="#04B404"
+        android:maxHeight="1dp"
+        android:paddingBottom="@dimen/dp5" />
+
+</RelativeLayout>

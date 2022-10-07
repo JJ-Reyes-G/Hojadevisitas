@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.secuencia.ordenescosecha.ClienteWeb" >
+
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="2dp" >
+
+        <Spinner
+            android:id="@+id/spinnerHora"
+            style="@style/ButtonCeleste"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:drawable/btn_dropdown"
+             />
+
+        <Spinner
+            android:id="@+id/spinnerTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <TableLayout
+            android:id="@+id/tbl_btn_fecha_hora_quema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_gris" >
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:text="Hora Fecha Quema:"
+                    android:textAppearance="@style/LetraBlanco"
+                    android:textColor="#FFFFFF" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_searchFecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:textAppearance="@style/LetraBlanco"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/tv_searchHora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:textAppearance="@style/LetraBlanco"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </TableRow>
+        </TableLayout>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableLayout1"
+        android:layout_below="@+id/tableLayout1"
+        android:background="#848484"
+        android:maxHeight="1dp" />
+
+    <ListView
+        android:id="@+id/lv_listasRegalos"
+        style="android:spinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_below="@+id/textView44"
+         >
+    </ListView>
+
+</RelativeLayout>

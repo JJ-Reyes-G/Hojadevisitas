@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/boton_gris"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imgbtn_barra_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:background="@drawable/boton_verde2"
+        android:onClick="imgbtn_barra_sincronizar"
+        android:src="@drawable/logoatras" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgbtn_buscar"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imgbtn_barra_inicio"
+            android:text="OC"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/dp12" />
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/titulo"
+            android:background="@drawable/boton_verde"
+            android:src="@drawable/cale" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_actualizarsecuenciaqnp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/boton_verde2"
+            android:onClick="imgbtn_actualizarsecuenciaqnp"
+            android:src="@drawable/bajardqnp2" />
+
+	</RelativeLayout>

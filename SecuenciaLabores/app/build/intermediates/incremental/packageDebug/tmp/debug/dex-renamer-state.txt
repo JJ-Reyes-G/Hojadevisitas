@@ -1,0 +1,4 @@
+#Fri Jul 08 09:14:47 CST 2022
+base.0=C\:\\StudioProjects\\Hojadevisitas\\SecuenciaLabores\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

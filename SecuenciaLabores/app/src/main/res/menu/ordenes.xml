@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pdsolutionweb.ilikegifts.Ordenes" >
+       
+    <item
+        android:id="@+id/menu_guardar_orden"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/menu_ordenes_secuencia"/>  
+        
+    <item
+        android:id="@+id/menu_modificar_orden"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_ordenes_secuenciaqnp"/> 
+       
+    <item
+        android:id="@+id/menu_add_articulo"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="@string/menu_ordenes_sincronizar"/>     
+
+</menu>

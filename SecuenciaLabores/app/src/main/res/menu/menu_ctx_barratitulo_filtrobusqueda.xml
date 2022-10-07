@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" > 
+    
+   	<item android:id="@+id/CtxLstOpcTodaSecuencia"
+    	android:title="Ver toda la Secuencia * "></item>  
+    	
+	<item android:id="@+id/CtxLstOpcSugerenciaSecuencia"
+    	android:title="Ver sugerencia de Secuencia"></item> 	
+        	
+   	<item android:id="@+id/CtxLstOpcBuscarTxt"
+    	android:title="Buscar por Codigo/Nombre Cliente"></item>   	
+    	   	 
+    	    	
+   	<item android:id="@+id/CtxLstOpcCancelar"
+    	android:title="@string/cancelar"></item> 
+    	   	   		
+</menu>
